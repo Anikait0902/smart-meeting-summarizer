@@ -11,6 +11,8 @@ Turns messy meeting notes into structured JSON and creates calendar events—han
 3. GPT returns structured JSON
 4. Events are automatically added to Google Calendar
 
+   <pre> ### 🗂 Folder Structure ``` smart-meeting-summarizer/ ├── main.py # Entry point for running the summarizer ├── calendar_auth.py # Handles Google Calendar auth ├── notion_fetcher.py # Pulls meeting notes from Notion ├── json_parser.py # Converts raw notes to structured JSON ├── calendar_uploader.py # Adds events to Google Calendar ├── docs/ │ └── img/ # Screenshots for README │ └── placeholder.txt # (Can be deleted after uploading images) ├── README.md ``` </pre>
+
 ---
 
 
@@ -79,20 +81,8 @@ RULES:
 📖 License
 MIT
 
----
 
-## ✅ Step 3: Paste it into GitHub
 
-1. Go back to GitHub  
-2. In the big editor box, paste everything you copied (Ctrl+V or Cmd+V)
-
----
-
-## ✅ Step 4: Commit
-
-1. Scroll to the bottom
-2. Leave the default commit message (`Create README.md`)
-3. Click the green **Commit new file** button
 
 Done ✅
 
