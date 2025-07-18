@@ -29,7 +29,7 @@ export OPENROUTER_API_KEY="your-openrouter-key"
 export NOTION_API_KEY="your-notion-secret"
 python main.py
 ```
-
+<pre> ### ▶️ How to Use 1. Clone the repo: ```bash git clone https://github.com/Anikait0902/smart-meeting-summarizer.git cd smart-meeting-summarizer ``` 2. Install dependencies: ```bash pip install -r requirements.txt ``` 3. Set environment variables: Create a `.env` file in the root directory with: ``` NOTION_KEY=your_notion_key NOTION_PAGE_ID=your_page_id OPENROUTER_API_KEY=your_openrouter_key GOOGLE_APPLICATION_CREDENTIALS=credentials.json ``` 4. Run the agent: ```bash python main.py ``` ✅ This will: - Pull meeting notes from Notion - Send them to GPT - Parse response into JSON - Push key dates to Google Calendar </pre>
 ---
 
 
