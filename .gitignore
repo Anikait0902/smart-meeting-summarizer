@@ -1,0 +1,11 @@
+# 🛡 Sensitive files
+credentials.json
+token.pickle
+.env
+
+# 🐍 Python artifacts
+__pycache__/
+*.pyc
+
+# 🛠 Misc
+.DS_Store
